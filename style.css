@@ -58,7 +58,7 @@ body {
 
 .more-articles {
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 42.5%;
   right: 42.5%;
   width: fit-content;
@@ -76,7 +76,7 @@ body {
   position: absolute;
   right: 20px;
   top: 20px;
-  background-color: #666;
+  background-color: #444;
   height: 40px;
   width: 115px;
 }
@@ -90,14 +90,14 @@ body {
 .top-box {
   height: 250px;
   width: 50%;
-  background-image: linear-gradient(to right, #333, #666);
+  background-image: linear-gradient(45deg, #333, #666);
 }
 
 .top-box-header {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  margin: 20px;
+  margin: 30px;
 }
 
 .top-box-pic {
@@ -110,4 +110,24 @@ body {
 
 .writer-name {
   color: #fff;
+}
+
+.article-title {
+  color: #fff;
+  text-align: justify;
+  margin: 0 45px 0 45px;
+}
+
+/* LATEST POST */
+
+.container-latestposts {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container-latestposts-post {
+  width: 33%;
+  margin: 10px 15px 5px 15px;
+  text-align: justify;
 }
