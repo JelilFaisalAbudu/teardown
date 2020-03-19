@@ -136,6 +136,17 @@ body {
 
 /* MEMBERS */
 
-.container-members-content {
-    
+.container-members {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
+
+.container-members-ad {
+  width: 40%;
+}
+
+.container-members-content {
+  width: 80%;
+}
+  
