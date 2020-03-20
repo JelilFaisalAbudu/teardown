@@ -291,3 +291,23 @@ body {
 .uppercase {
   text-transform: uppercase;
 }
+
+.person-week-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person-week-flex {
+  /* margin: 30px; */
+  /* padding: 30px; */
+  height: 25%;
+  width: 50%;
+}
+
+.person-week-flex .text-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-betweesn;
+}
+
