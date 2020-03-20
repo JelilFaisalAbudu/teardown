@@ -163,7 +163,7 @@ body {
 
 }
 
- .cm-text h3 {
+.cm-text h3 {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -173,4 +173,22 @@ body {
   width: 150px;
   background-color: beige;
   border-radius: 5px;
+}
+
+.see-all-latest-articles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10% auto;
+}
+
+.see-all-latest-articles-title {
+  background-color: #888;
+  width: 200px;
+  text-align: center;
+}
+
+.see-all-latest-articles-title span {
+  color: #fff;
 }
