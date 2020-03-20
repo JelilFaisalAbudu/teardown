@@ -365,16 +365,23 @@ body {
 .design-parent {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .design-sytems-articles-item {
-  width: 33%;
-  background-color: red;
+  width: 30%;
+  margin: 20px 0 90px 30px;
+}
+
+.design-sytems-articles-item h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .design-systems-articles-img {
-  width: 100%;
-  background-color: #888;
+  width: 90%;
+  height: 200px;
+  background-color: #999;
 }
