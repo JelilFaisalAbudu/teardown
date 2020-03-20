@@ -186,6 +186,7 @@ body {
   background-color: #888;
   width: 200px;
   text-align: center;
+  margin-bottom: 75px;
 }
 
 .see-all-latest-articles-title span {
@@ -200,7 +201,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #999;
+  background-color: #c0c0c0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -264,7 +265,7 @@ body {
   height: 70px;
   background-color: #444;
   transform: rotate(-20deg);
-  box-shadow: 0px 10px 10px gray;
+  box-shadow: 0 10px 10px gray;
 }
 
 .person-week-text {
@@ -298,8 +299,6 @@ body {
 }
 
 .person-week-flex {
-  /* margin: 30px; */
-  /* padding: 30px; */
   height: 25%;
   width: 50%;
 }
@@ -311,3 +310,46 @@ body {
   justify-content: space-betweesn;
 }
 
+/* DESIGN ARTICLES */
+
+.design-systems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.design-sytems-header {
+  width: 100%;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+}
+
+.design-system-header-parent {
+  width: 80%;
+  margin: 35px 5px 65px 5px;
+}
+
+.design-sytems-header-title h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.design-sytems-header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #c0c0c0;
+  margin-bottom: 20px;
+}
+
+.design-sytems-header-btn button {
+  height: 36px;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+}
