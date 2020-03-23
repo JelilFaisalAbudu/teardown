@@ -441,6 +441,7 @@ body {
 }
 
 .footer {
+  color: #cecece;
   height: 700px;
   width: 100%;
   background: #333;
@@ -458,11 +459,10 @@ body {
 }
 
 .first-item {
+  margin-top: 30px;
   width: 80%;
   height: 150px;
   background-color: silver;
-  color: #333;
-  font-size: 24px;
   text-align: center;
 }
 
@@ -485,9 +485,10 @@ body {
 .center-content {
   flex-direction: column;
   justify-content: space-between;
-  color: #cecece;
   text-align: center;
   font-size: 16px;
 }
 
-.text1 
+.text {
+  padding: 25px 10px 0;
+}
