@@ -2,7 +2,7 @@
 
 > This is an assigment for Microverse HTML and CSS course. The goal is to understand UX design, by checking the visual weight on the Smashing Magazine website and reproducing it with gray scale.
 
-![screenshot]()
+![screenshot](images/teardown.png)
 
 Additional description about the project and its features.
 
@@ -11,10 +11,12 @@ Additional description about the project and its features.
 - HTML,
 - CSS,
 - Visual Studio Code
+- Linter
+- W3C HTML Validator
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://raw.githack.com/JelilFaisalAbudu/teardown/homepage/index.html)
 
 ## Getting Started
 
@@ -44,8 +46,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Jelil Faisal Abudu**
 
 - Github: [@JelilFaisalAbudu](https://github.com/JelilFaisalAbudu)
-- Twitter: [@]()
-- Linkedin: [@]()
+- Twitter: [@jelilabudu](https://twitter.com/jelilabudu)
+- Linkedin: [@jelilfaisalabudu](www.linkedin.com/in/jelilfaisalabudu)
 
 ## 🤝 Contributing
 
